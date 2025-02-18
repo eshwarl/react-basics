@@ -1,3 +1,75 @@
-#heading{
-    color: red;
+.header{
+    display:flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+.logo{
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+}
+.nav-items{
+    padding: 0px 20px;
+}
+.nav-items ul{
+    display: flex;
+    font-size: 24px;
+    list-style-type: none;
+
+}
+.nav-items ul li{
+    padding:10px;
+    margin: 10px;
+}
+.res-Container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.res-card{
+    margin: 5px;
+    padding: 5px;
+   
+    width:250px;
+   
+   
+   
+    
+}
+.res-card:hover{
+    border: 1px solid black;
+    cursor: pointer;
+}
+.search{
+    padding: 10px;
+}
+.res-logo{
+    
+    width:100%;
+}
+.filter-btn{
+    margin:10px
+}
+.shimmer-container{
+    display: flex;
+}
+.shimmer-card{
+    width: 200px;
+    height: 400px;
+    background-color: gray;
+    margin: 10px;
+}
+.login{
+padding: 0 15px;
+cursor:pointer ;
+}
+.filter{
+    display: flex;
+    
+}
+.user-card{
+  padding: 10px;
+    margin: 10px solid black;
+   
+ 
 }
